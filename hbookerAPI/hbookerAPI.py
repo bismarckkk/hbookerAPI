@@ -241,11 +241,3 @@ class Session:
 def getBookShelf(session, id):
     return BookShelf(id, session.common)
 
-
-s1 = Session('e9662c4a4bbfd86d88b6e783b1fca1aa', '书客5759978156')
-# sh = s1.getBookShelf(550752)
-# sh.load2end()
-# sh.books.to_excel('books.xlsx')
-#post(urlList.BOOK_GET_INFO_BY_ID, {'book_id': '100051158', **s1.commonUserInfo}, True)
-#Book('100051158', s1.commonUserInfo)
-print(s1.getBookShelfList())

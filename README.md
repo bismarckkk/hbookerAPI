@@ -31,7 +31,13 @@ TODO
 
 start
 ----
-将本仓库clone到你的项目下后请根据实际路径导入hbookerAPI.py
+#### 通过pypi安装
+```shell script
+pip install hbookerAPI
+```
+#### 从仓库安装
+将仓库clone到本地，把hbookerAPI文件夹拷贝到你的工作目录下
+#### 示例使用
 ```python
 import hbookerAPI
 

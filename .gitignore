@@ -2,3 +2,9 @@
 .idea/
 
 __pycache__/urlList.cpython-38.pyc
+
+__pycache__/
+
+hbookerAPI.egg-info/
+
+test.py
